@@ -1,6 +1,6 @@
-# umeng_sdk
+# umengsdk
 
-A new flutter plugin project.
+A new Flutter plugin.
 
 ## Getting Started
 

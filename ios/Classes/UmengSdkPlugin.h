@@ -1,4 +1,7 @@
 #import <Flutter/Flutter.h>
 
-@interface UmengSdkPlugin : NSObject<FlutterPlugin>
+@interface UmengsdkPlugin : NSObject<FlutterPlugin>
+
+@property FlutterMethodChannel *channel;
+
 @end

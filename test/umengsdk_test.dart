@@ -1,9 +1,9 @@
 import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:umeng_sdk/umeng_sdk.dart';
+import 'package:umengsdk/umengsdk.dart';
 
 void main() {
-  const MethodChannel channel = MethodChannel('umeng_sdk');
+  const MethodChannel channel = MethodChannel('umengsdk');
 
   TestWidgetsFlutterBinding.ensureInitialized();
 
@@ -18,6 +18,6 @@ void main() {
   });
 
   test('getPlatformVersion', () async {
-    expect(await UmengSdk.platformVersion, '42');
+    expect(await Umengsdk.platformVersion, '42');
   });
 }

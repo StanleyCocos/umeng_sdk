@@ -1,6 +1,6 @@
-# umeng_sdk_example
+# umengsdk_example
 
-Demonstrates how to use the umeng_sdk plugin.
+Demonstrates how to use the umengsdk plugin.
 
 ## Getting Started
 
